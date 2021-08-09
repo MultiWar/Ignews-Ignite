@@ -18,12 +18,12 @@ describe('Async component', () => {
 
         //if you want to wait for an element to be removed, however, this is how it should be done:
 
-        // await waitForElementToBeRemoved(screen.queryByText("I'm invisible!"))
+        // await waitForElementToBeRemoved(screen.queryByText("Im invisible"))
 
         // or:
 
         // await waitFor(() => {
-        //     return expect(screen.queryByText("I'm invisible!")).not.toBeInTheDocument()
+        //     return expect(screen.queryByText("Im invisible")).not.toBeInTheDocument()
         // })
 
         // In summary, screen has 3 types of methods, that start with:

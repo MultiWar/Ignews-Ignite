@@ -19,7 +19,7 @@ export const Async = () => {
                 <button>Button</button>
             ) }
             {!isButtonInvisible && (
-                <button>I'm invisible!</button>
+                <button>Im invisible</button>
             )}
         </div>
     )
